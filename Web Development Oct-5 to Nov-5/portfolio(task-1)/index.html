@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+</head>
+
+<body>
+    <div id="background-animation"></div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="resume.pdf" target="_blank">Download CV</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <img src="profile.jpeg" alt="Your Photo">
+        <div class="developer-info">
+            <h1>Hi...........</h1>
+            <p>I Am Sushant.......</p>
+            <p>I am Web-developer,C++ Programer,Designer</p>
+        </div>
+    </section>
+    <section>
+        <center>
+            <h1>Projects</h1>
+        </center>
+        <div class="card-container">
+            <div class="card">
+                <img src="dairy.webp" alt="Image 1">
+                <div class="description">
+                    <h3>Dairy Management System</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem eos itaque consectetur amet
+                        doloribus dolores magnam quam ipsum. Dolore illum optio quisquam voluptates, a distinctio iure
+                        iste cum nemo ex. </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="lib.jpg" alt="Image 2">
+                <div class="description">
+                    <h3>Library Management System</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ab nesciunt dolore nobis debitis
+                        ducimus error? In voluptatem pariatur atque voluptas quasi. Adipisci suscipit dolores, illo
+                        expedita dolorum vel temporibus.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="atm.jpg" alt="Image 3">
+                <div class="description">
+                    <h3>ATM Management System</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quaerat reprehenderit
+                        molestiae omnis perferendis quo minus commodi sed libero repellendus nemo magnam, est laborum
+                        deserunt mollitia doloremque neque iusto tempore?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <center>
+            <h2>Skills</h2>
+        </center>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress-bar html">90%</div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress-bar css">85%</div>
+        </div>
+        <div class="skill">
+            <p>C++</p>
+            <div class="progress-bar cpp">80%</div>
+        </div>
+        <div class="skill">
+            <p>Bootstrap</p>
+            <div class="progress-bar bootstrap">75%</div>
+        </div>
+    </section>
+    <section id="contact">
+        <center>
+            <h2>Contact</h2>
+        </center>
+        <form action="contact.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="quick-links">
+        <center>
+            <h3>developed by @sushant</h3>
+        </center>
+        <center>
+            <h2>Quick Links</h2>
+        </center>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/your-profile"><img src="link.jpeg" alt="LinkedIn"></a>
+            <a href="https://www.facebook.com/your-profile"><img src="face.jpeg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/your-profile"><img src="insta.jpeg" alt="Instagram"></a>
+        </div>
+    </section>
+</body>
+
+</html>

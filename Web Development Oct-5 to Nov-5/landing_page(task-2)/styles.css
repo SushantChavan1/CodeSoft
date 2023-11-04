@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    animation: backgroundAnimation 60s infinite;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    background-color: #1fa8da;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+    color: deepink;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    border-radius: 10cm;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    font-size: 30px;
+    color: deeppink;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.destinations {
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0;
+}
+
+.destination-card {
+    display: inline-block;
+    margin: 20px;
+    max-width: 350px;
+}
+
+.destination-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: 400px;
+}
+
+.contact {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    font-size: 25px;
+    background-color: #a3d5e8;
+}
+
+.contact a:hover {
+
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+}

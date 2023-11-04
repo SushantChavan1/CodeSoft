@@ -1,0 +1,182 @@
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+
+nav {
+    background-color: darkcyan;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+#about {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 280px;
+}
+
+#about img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.developer-info {
+    margin-left: 20px;
+}
+
+.developer-info h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.developer-info p {
+    color: #777;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    padding: 20px;
+}
+
+
+#skills {
+
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.skill p {
+    margin: 0;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    width: 0;
+    height: 20px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 20px;
+}
+
+
+.progress-bar.html {
+    width: 90%;
+    background-color: #61DAFB;
+}
+
+.progress-bar.css {
+    width: 85%;
+    background-color: #264de4;
+}
+
+.progress-bar.cpp {
+    width: 80%;
+    background-color: #00599d;
+}
+
+.progress-bar.bootstrap {
+    width: 75%;
+    background-color: #7952b3;
+}
+
+
+#contact {
+    background-color: #fff;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+#quick-links {
+
+
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.developer-info p {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    font-style: bold;
+    text-shadow: #333;
+}
+
+.social-links img {
+    width: 100px;
+}
